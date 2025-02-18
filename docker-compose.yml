@@ -45,7 +45,7 @@ services:
         - ollama
         - chroma
       environment:
-        - MODEL=llama3
+        - MODEL=deepseek-r1:70b
         - EMBEDDINGS_MODEL_NAME=all-MiniLM-L6-v2
         - TARGET_SOURCE_CHUNKS=5
 
