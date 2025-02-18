@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(layout='wide', page_title='Archivos - Basdonax AI RAG', page_icon='📁')
+st.set_page_config(layout='wide', page_title='Archivos - Devfay AI RAG', page_icon='📁')
 
 import chromadb, os
 from langchain_community.embeddings import HuggingFaceEmbeddings
